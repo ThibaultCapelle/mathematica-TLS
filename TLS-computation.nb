@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18270,        552]
-NotebookOptionsPosition[     17389,        516]
-NotebookOutlinePosition[     17735,        531]
-CellTagsIndexPosition[     17692,        528]
+NotebookDataLength[    123780,       3145]
+NotebookOptionsPosition[    122656,       3101]
+NotebookOutlinePosition[    123002,       3116]
+CellTagsIndexPosition[    122959,       3113]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -512,6 +512,2591 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{3.728020836039583*^9, 3.7280211467515073`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", "b01", "}"}], ",", 
+    RowBox[{"{", "bx1", "}"}], ",", 
+    RowBox[{"{", "by1", "}"}], ",", 
+    RowBox[{"{", "bz1", "}"}]}], "}"}], "=", 
+  RowBox[{
+   RowBox[{"Inverse", "[", "mat1", "]"}], ".", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"x", "+", 
+         RowBox[{"I", ".", "y"}]}], ")"}], "/", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", "z"}], ")"}], "/", "2"}], "-", 
+       RowBox[{
+        RowBox[{"x", ".", 
+         RowBox[{"(", 
+          RowBox[{"x", "+", 
+           RowBox[{"I", ".", "y"}]}], ")"}]}], "/", "2"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"I", ".", 
+         RowBox[{"(", 
+          RowBox[{"1", "-", "z"}], ")"}]}], "/", "2"}], "-", 
+       RowBox[{
+        RowBox[{"y", ".", 
+         RowBox[{"(", 
+          RowBox[{"x", "+", 
+           RowBox[{"I", ".", "y"}]}], ")"}]}], "/", "2"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", "z"}], ")"}], ".", 
+        RowBox[{"(", 
+         RowBox[{"x", "+", 
+          RowBox[{"I", ".", "y"}]}], ")"}]}], "/", "2"}], "}"}]}], 
+    "}"}]}]}]], "Input",
+ CellChangeTimes->{{3.7280212902878046`*^9, 3.728021459049018*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[ImaginaryI]", ".", 
+          RowBox[{"(", 
+           RowBox[{"-", 
+            FractionBox[
+             RowBox[{
+              SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+           ")"}]}], "+", 
+         FractionBox[
+          RowBox[{"2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+           RowBox[{"g", ".", "v"}]}], 
+          RowBox[{"\[CapitalDelta]c", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
+              FractionBox[
+               SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+             RowBox[{"\[CapitalGamma]m", " ", 
+              SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+             FractionBox[
+              RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+              SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], ")"}], 
+       " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           FractionBox["1", "16"]}], " ", "\[CapitalGamma]m", " ", 
+          "\[CapitalDelta]c", " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+         RowBox[{
+          FractionBox["1", "8"], " ", 
+          SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+         RowBox[{
+          FractionBox["1", "32"], " ", "\[CapitalGamma]m", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}],
+          "+", 
+         RowBox[{
+          FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}],
+          "+", 
+         RowBox[{
+          FractionBox["1", "8"], " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], "2"]}],
+          "+", 
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"], 
+          RowBox[{"2", " ", "\[CapitalDelta]c"}]], "+", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          RowBox[{"4", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"]}]]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+          SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+         RowBox[{
+          FractionBox["1", "16"], " ", 
+          SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+         RowBox[{
+          FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+          "\[CapitalDelta]c", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}],
+          "+", 
+         RowBox[{
+          FractionBox["1", "32"], " ", 
+          SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}],
+          "+", 
+         RowBox[{
+          FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], "2"]}],
+          "+", 
+         RowBox[{
+          FractionBox["1", "4"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], "+", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]c", " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             FractionBox["1", "2"], " ", 
+             RowBox[{"\[ImaginaryI]", ".", 
+              RowBox[{"(", 
+               RowBox[{"1", "-", 
+                FractionBox[
+                 RowBox[{"\[CapitalGamma]m", " ", 
+                  RowBox[{"(", 
+                   RowBox[{
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}]}]}], 
+            "-", 
+            RowBox[{
+             FractionBox["1", "2"], " ", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"-", 
+                FractionBox[
+                 RowBox[{
+                  SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                  RowBox[{"g", ".", "v"}]}], 
+                 RowBox[{"\[CapitalDelta]c", " ", 
+                  RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+               ")"}], ".", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"\[ImaginaryI]", ".", 
+                 RowBox[{"(", 
+                  RowBox[{"-", 
+                   FractionBox[
+                    RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                    RowBox[{"g", ".", "v"}]}], 
+                    RowBox[{"\[CapitalDelta]c", " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                  ")"}]}], "+", 
+                FractionBox[
+                 RowBox[{
+                 "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                  RowBox[{"g", ".", "v"}]}], 
+                 RowBox[{"\[CapitalDelta]c", " ", 
+                  RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+               ")"}]}]}]}], ")"}]}], ")"}], "/", 
+        RowBox[{"(", 
+         RowBox[{"8", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", 
+              FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+             SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+            RowBox[{
+             FractionBox["1", "16"], " ", 
+             SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+            RowBox[{
+             FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+             "\[CapitalDelta]c", " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+              "2"]}], "+", 
+            RowBox[{
+             FractionBox["1", "32"], " ", 
+             SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+              "2"]}], "+", 
+            RowBox[{
+             FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+              "2"]}], "+", 
+            RowBox[{
+             FractionBox["1", "4"], " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+            "+", 
+            FractionBox[
+             RowBox[{
+              RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+              SuperscriptBox[
+               RowBox[{"(", 
+                RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+             RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], 
+       ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           FractionBox[
+            RowBox[{"\[CapitalGamma]m", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+            RowBox[{
+             RowBox[{"-", 
+              FractionBox[
+               SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+             RowBox[{"\[CapitalGamma]m", " ", 
+              SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+             FractionBox[
+              RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+              SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}], ".", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"\[ImaginaryI]", ".", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}], "+", 
+           FractionBox[
+            RowBox[{
+            "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+             RowBox[{"g", ".", "v"}]}], 
+            RowBox[{"\[CapitalDelta]c", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+          ")"}]}], " ", 
+        RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"8", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "-", 
+             FractionBox[
+              RowBox[{"\[CapitalGamma]m", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{
+            FractionBox[
+             RowBox[{
+             "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]], ".", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"\[ImaginaryI]", ".", 
+               RowBox[{"(", 
+                RowBox[{"-", 
+                 FractionBox[
+                  RowBox[{
+                   SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                   RowBox[{"g", ".", "v"}]}], 
+                  RowBox[{"\[CapitalDelta]c", " ", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                ")"}]}], "+", 
+              FractionBox[
+               RowBox[{
+               "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "16"]}], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "8"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"], 
+           RowBox[{"2", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+         SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+        RowBox[{
+         FractionBox["1", "16"], " ", 
+         SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+        RowBox[{
+         FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+         "\[CapitalDelta]c", " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "32"], " ", 
+         SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "4"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], "+", 
+        FractionBox[
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+         RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", 
+           RowBox[{"(", 
+            RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{"\[CapitalDelta]c", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"-", 
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                 RowBox[{"\[CapitalGamma]m", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                 FractionBox[
+                  RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                  SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+            ")"}]}], "+", 
+          FractionBox[
+           RowBox[{"2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+            RowBox[{"g", ".", "v"}]}], 
+           RowBox[{"\[CapitalDelta]c", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", 
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+              RowBox[{"\[CapitalGamma]m", " ", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+              FractionBox[
+               RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+               SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], ")"}], 
+        " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "8"]}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}], "-", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalGamma]m", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            FractionBox[
+             RowBox[{
+             "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}]}], 
+          "+", 
+          RowBox[{
+           FractionBox["1", "8"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            FractionBox[
+             RowBox[{
+             "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}]}], 
+          "-", 
+          FractionBox[
+           RowBox[{"\[CapitalGamma]m", " ", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], 
+           RowBox[{"4", " ", "\[CapitalDelta]c"}]], "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+            RowBox[{"\[CapitalDelta]c", ".", 
+             FractionBox[
+              RowBox[{"\[CapitalGamma]m", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], " ", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], 
+           RowBox[{"4", " ", "\[CapitalDelta]c"}]], "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[CapitalDelta]c", ".", 
+             FractionBox[
+              RowBox[{
+              "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{"\[CapitalDelta]c", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"-", 
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                 RowBox[{"\[CapitalGamma]m", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                 FractionBox[
+                  RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                  SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"2", " ", 
+            SuperscriptBox["\[CapitalDelta]c", "2"]}]]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "8"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", 
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              FractionBox[
+               RowBox[{"\[CapitalGamma]m", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}]}]}], 
+          "-", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}], ".", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"\[ImaginaryI]", ".", 
+               RowBox[{"(", 
+                RowBox[{"-", 
+                 FractionBox[
+                  RowBox[{
+                   SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                   RowBox[{"g", ".", "v"}]}], 
+                  RowBox[{"\[CapitalDelta]c", " ", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                ")"}]}], "+", 
+              FractionBox[
+               RowBox[{
+               "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+         SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+        RowBox[{
+         FractionBox["1", "16"], " ", 
+         SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+        RowBox[{
+         FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+         "\[CapitalDelta]c", " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "32"], " ", 
+         SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "4"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], "+", 
+        FractionBox[
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+         RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]c", " ", 
+        RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+        RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "-", 
+             FractionBox[
+              RowBox[{"\[CapitalGamma]m", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{
+            FractionBox[
+             RowBox[{
+             "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]], ".", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"\[ImaginaryI]", ".", 
+               RowBox[{"(", 
+                RowBox[{"-", 
+                 FractionBox[
+                  RowBox[{
+                   SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                   RowBox[{"g", ".", "v"}]}], 
+                  RowBox[{"\[CapitalDelta]c", " ", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                ")"}]}], "+", 
+              FractionBox[
+               RowBox[{
+               "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"8", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           FractionBox[
+            RowBox[{"\[CapitalGamma]m", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+            RowBox[{
+             RowBox[{"-", 
+              FractionBox[
+               SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+             RowBox[{"\[CapitalGamma]m", " ", 
+              SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+             FractionBox[
+              RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+              SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}], ".", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"\[ImaginaryI]", ".", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}], "+", 
+           FractionBox[
+            RowBox[{
+            "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+             RowBox[{"g", ".", "v"}]}], 
+            RowBox[{"\[CapitalDelta]c", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+          ")"}]}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "4"]}], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "8"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}]}], ")"}]}], ")"}], 
+      "/", 
+      RowBox[{"(", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", 
+           RowBox[{"(", 
+            RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{"\[CapitalDelta]c", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"-", 
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                 RowBox[{"\[CapitalGamma]m", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                 FractionBox[
+                  RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                  SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+            ")"}]}], "+", 
+          FractionBox[
+           RowBox[{"2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+            RowBox[{"g", ".", "v"}]}], 
+           RowBox[{"\[CapitalDelta]c", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", 
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+              RowBox[{"\[CapitalGamma]m", " ", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+              FractionBox[
+               RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+               SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], ")"}], 
+        " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "8"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"], 
+           " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}], "+", 
+          RowBox[{
+           FractionBox["1", "8"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            FractionBox[
+             RowBox[{
+             "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}]}], 
+          "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", "\[CapitalGamma]m", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], "+", 
+          FractionBox[
+           RowBox[{"\[CapitalGamma]m", " ", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]], "-", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           RowBox[{"\[CapitalDelta]c", ".", 
+            FractionBox[
+             RowBox[{"\[CapitalGamma]m", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+             RowBox[{
+              RowBox[{"-", 
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+              RowBox[{"\[CapitalGamma]m", " ", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+              FractionBox[
+               RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+               SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], "-", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            RowBox[{"\[CapitalDelta]c", ".", 
+             FractionBox[
+              RowBox[{"\[CapitalGamma]m", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], " ", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           FractionBox[
+            RowBox[{"\[CapitalGamma]m", " ", 
+             SuperscriptBox["\[CapitalDelta]c", "2"]}], "16"]}], "+", 
+          FractionBox[
+           SuperscriptBox["\[CapitalDelta]c", "3"], "8"], "-", 
+          RowBox[{
+           FractionBox["1", "32"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "8"], " ", "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}]}], ")"}], " ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           FractionBox[
+            RowBox[{"\[CapitalGamma]m", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+            RowBox[{
+             RowBox[{"-", 
+              FractionBox[
+               SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+             RowBox[{"\[CapitalGamma]m", " ", 
+              SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+             FractionBox[
+              RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+              SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}], ".", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"\[ImaginaryI]", ".", 
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}], "+", 
+           FractionBox[
+            RowBox[{
+            "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+             RowBox[{"g", ".", "v"}]}], 
+            RowBox[{"\[CapitalDelta]c", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+          ")"}]}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "-", 
+             FractionBox[
+              RowBox[{"\[CapitalGamma]m", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+              RowBox[{
+               RowBox[{"-", 
+                FractionBox[
+                 SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+               RowBox[{"\[CapitalGamma]m", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+               FractionBox[
+                RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{
+            FractionBox[
+             RowBox[{
+             "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{"\[CapitalDelta]c", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]], ".", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"\[ImaginaryI]", ".", 
+               RowBox[{"(", 
+                RowBox[{"-", 
+                 FractionBox[
+                  RowBox[{
+                   SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                   RowBox[{"g", ".", "v"}]}], 
+                  RowBox[{"\[CapitalDelta]c", " ", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                ")"}]}], "+", 
+              FractionBox[
+               RowBox[{
+               "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}]}], ")"}], " ", 
+        RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", 
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              FractionBox[
+               RowBox[{"\[CapitalGamma]m", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox[
+                  SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                FractionBox[
+                 RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                 SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}], ")"}]}]}], 
+          "-", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}], ".", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"\[ImaginaryI]", ".", 
+               RowBox[{"(", 
+                RowBox[{"-", 
+                 FractionBox[
+                  RowBox[{
+                   SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                   RowBox[{"g", ".", "v"}]}], 
+                  RowBox[{"\[CapitalDelta]c", " ", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                ")"}]}], "+", 
+              FractionBox[
+               RowBox[{
+               "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                  RowBox[{"\[CapitalGamma]m", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                  FractionBox[
+                   RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                   SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+             ")"}]}]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           FractionBox["1", "4"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "8"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}]}], ")"}]}], ")"}], 
+      "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+         SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+        RowBox[{
+         FractionBox["1", "16"], " ", 
+         SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+        RowBox[{
+         FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+         "\[CapitalDelta]c", " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "32"], " ", 
+         SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+         RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], "2"]}], 
+        "+", 
+        RowBox[{
+         FractionBox["1", "4"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], "+", 
+        FractionBox[
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+         RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", 
+           RowBox[{"(", 
+            RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{"\[CapitalDelta]c", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"-", 
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                 RowBox[{"\[CapitalGamma]m", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                 FractionBox[
+                  RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                  SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+            ")"}]}], "+", 
+          FractionBox[
+           RowBox[{"2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+            RowBox[{"g", ".", "v"}]}], 
+           RowBox[{"\[CapitalDelta]c", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", 
+               FractionBox[
+                SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+              RowBox[{"\[CapitalGamma]m", " ", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+              FractionBox[
+               RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+               SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], ")"}], 
+        " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", 
+               FractionBox[
+                RowBox[{"\[CapitalGamma]m", " ", "\[CapitalDelta]c"}], "8"]}],
+               "+", 
+              FractionBox[
+               SuperscriptBox["\[CapitalDelta]c", "2"], "4"], "-", 
+              FractionBox[
+               RowBox[{"\[CapitalGamma]m", " ", 
+                RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "16"], 
+              "+", 
+              FractionBox[
+               RowBox[{"\[CapitalDelta]c", " ", 
+                RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "8"], 
+              "+", 
+              RowBox[{
+               FractionBox["1", "4"], " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+                "2"]}]}], ")"}]}], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             FractionBox["\[CapitalGamma]m", "2"], "-", 
+             RowBox[{
+              FractionBox["1", "2"], " ", 
+              RowBox[{"\[CapitalDelta]c", ".", 
+               FractionBox[
+                RowBox[{"\[CapitalGamma]m", " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "4"], "+", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}], ")"}]}], 
+                RowBox[{
+                 RowBox[{"-", 
+                  FractionBox[
+                   SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                 RowBox[{"\[CapitalGamma]m", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                 FractionBox[
+                  RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                  SuperscriptBox["\[CapitalDelta]c", "2"]]}]]}]}]}], ")"}]}], 
+          "+", 
+          RowBox[{
+           FractionBox["1", "\[CapitalDelta]c"], 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               FractionBox["1", "4"], " ", "\[CapitalDelta]c", " ", 
+               RowBox[{"\[CapitalDelta]c", ".", 
+                RowBox[{"(", 
+                 RowBox[{"-", 
+                  FractionBox[
+                   RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                    RowBox[{"g", ".", "v"}]}], 
+                   RowBox[{"\[CapitalDelta]c", " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                 ")"}]}]}], "+", 
+              RowBox[{
+               FractionBox["1", "8"], " ", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+               RowBox[{"\[CapitalDelta]c", ".", 
+                RowBox[{"(", 
+                 RowBox[{"-", 
+                  FractionBox[
+                   RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], " ", 
+                    RowBox[{"g", ".", "v"}]}], 
+                   RowBox[{"\[CapitalDelta]c", " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], ")"}]}]]}], 
+                 ")"}]}]}], "+", 
+              RowBox[{
+               FractionBox["1", "4"], " ", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+               RowBox[{"\[CapitalDelta]c", ".", 
+                FractionBox[
+                 RowBox[{
+                 "2", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]q", " ", 
+                  RowBox[{"g", ".", "v"}]}], 
+                 RowBox[{"\[CapitalDelta]c", " ", 
+                  RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"-", 
+                    FractionBox[
+                    SuperscriptBox["\[CapitalGamma]m", "3"], "4"]}], "-", 
+                    RowBox[{"\[CapitalGamma]m", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}], "-", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[CapitalGamma]m", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}], 
+                    SuperscriptBox["\[CapitalDelta]c", "2"]]}], 
+                   ")"}]}]]}]}]}], ")"}], " ", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}]}]}], ")"}]}], 
+       ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["1", "32"]}], " ", "\[CapitalGamma]m", " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "3"], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "-", 
+          RowBox[{
+           FractionBox["1", "64"], " ", "\[CapitalGamma]m", " ", 
+           "\[CapitalDelta]c", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "32"], " ", 
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "16"], " ", "\[CapitalDelta]c", " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], 
+            "2"]}], "+", 
+          RowBox[{
+           FractionBox["1", "4"], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+          "+", 
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}], 
+           RowBox[{"8", " ", "\[CapitalDelta]c"}]]}], ")"}]}], ")"}]}]}], 
+    "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.7280214662990384`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", "bx1", "]"}]], "Input",
+ CellChangeTimes->{{3.7280214884478836`*^9, 3.728021499285467*^9}, {
+  3.7280215723862104`*^9, 3.728021576344921*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"2", " ", "\[CapitalDelta]c", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"2", " ", "\[CapitalDelta]c", " ", 
+       RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+       RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"\[ImaginaryI]", ".", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             FractionBox[
+              RowBox[{
+               SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                 RowBox[{"4", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                  RowBox[{"4", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+               RowBox[{"8", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}]}], "+", 
+         RowBox[{
+          FractionBox[
+           RowBox[{"4", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]c", " ", 
+            RowBox[{"g", ".", "v"}]}], 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+               RowBox[{"4", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+            RowBox[{"8", " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]], ".", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", 
+             FractionBox[
+              RowBox[{
+              "4", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]c", " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                  RowBox[{"4", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+               RowBox[{"8", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], "-", 
+            FractionBox[
+             RowBox[{
+             "8", " ", "\[CapitalDelta]c", " ", "\[CapitalDelta]q", " ", 
+              RowBox[{"g", ".", "v"}]}], 
+             RowBox[{
+              RowBox[{
+               SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                 RowBox[{"4", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+              RowBox[{"8", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}]}], 
+        ")"}]}], "+", 
+      RowBox[{"4", " ", 
+       RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          FractionBox[
+           RowBox[{
+            SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+              RowBox[{"4", " ", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+               RowBox[{"4", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+            RowBox[{"8", " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}], ".", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[ImaginaryI]", ".", 
+           FractionBox[
+            RowBox[{
+            "4", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]c", " ", 
+             RowBox[{"g", ".", "v"}]}], 
+            RowBox[{
+             RowBox[{
+              SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+              RowBox[{"(", 
+               RowBox[{
+                SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                RowBox[{"4", " ", 
+                 SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+             RowBox[{"8", " ", 
+              SuperscriptBox[
+               RowBox[{"(", 
+                RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], "-", 
+          FractionBox[
+           RowBox[{"8", " ", "\[CapitalDelta]c", " ", "\[CapitalDelta]q", " ", 
+            RowBox[{"g", ".", "v"}]}], 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+               RowBox[{"4", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+            RowBox[{"8", " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}], " ", 
+       RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}], "+", 
+      RowBox[{
+       FractionBox["1", "\[CapitalDelta]c"], 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          FractionBox[
+           RowBox[{
+            SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+              RowBox[{"4", " ", 
+               SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+               RowBox[{"4", " ", 
+                SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+            RowBox[{"8", " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]], "-", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+              "8", " ", "\[CapitalDelta]c", " ", "\[CapitalDelta]q", " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                  RowBox[{"4", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+               RowBox[{"8", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}], ".", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"\[ImaginaryI]", ".", 
+              FractionBox[
+               RowBox[{
+               "4", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]c", " ", 
+                RowBox[{"g", ".", "v"}]}], 
+               RowBox[{
+                RowBox[{
+                 SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                   RowBox[{"4", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+                RowBox[{"8", " ", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                   RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], "-", 
+             FractionBox[
+              RowBox[{
+              "8", " ", "\[CapitalDelta]c", " ", "\[CapitalDelta]q", " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                  RowBox[{"4", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+               RowBox[{"8", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}]}], 
+         ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "\[CapitalGamma]m"}], "+", 
+             RowBox[{"2", " ", "\[CapitalDelta]c"}]}], ")"}], " ", 
+           RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], "+", 
+          RowBox[{"8", " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}]}], 
+         ")"}]}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "8"}], " ", "\[CapitalDelta]c", " ", 
+            "\[CapitalDelta]q", " ", 
+            RowBox[{"g", ".", "v"}]}], "+", 
+           RowBox[{
+            RowBox[{"\[ImaginaryI]", ".", 
+             FractionBox[
+              RowBox[{
+              "4", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]c", " ", 
+               RowBox[{"g", ".", "v"}]}], 
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                  RowBox[{"4", " ", 
+                   SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+               RowBox[{"8", " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                 RowBox[{"4", " ", 
+                  SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+              RowBox[{"8", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"g", ".", "v"}], ")"}], "2"]}]}], ")"}]}]}], ")"}], 
+         " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+            RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"-", "2"}], " ", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+               RowBox[{"\[CapitalDelta]c", ".", 
+                FractionBox[
+                 RowBox[{
+                 "4", " ", "\[CapitalGamma]m", " ", "\[CapitalDelta]c", " ", 
+                  RowBox[{"g", ".", "v"}]}], 
+                 RowBox[{
+                  RowBox[{
+                   SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+                  RowBox[{"8", " ", 
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}]}], "-", 
+              RowBox[{
+               RowBox[{"(", 
+                RowBox[{"\[CapitalGamma]m", "-", 
+                 RowBox[{"2", " ", "\[CapitalDelta]c"}]}], ")"}], " ", 
+               RowBox[{"\[CapitalDelta]c", ".", 
+                RowBox[{"(", 
+                 RowBox[{"-", 
+                  FractionBox[
+                   RowBox[{
+                   "8", " ", "\[CapitalDelta]c", " ", "\[CapitalDelta]q", " ", 
+                    RowBox[{"g", ".", "v"}]}], 
+                   RowBox[{
+                    RowBox[{
+                    SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+                    RowBox[{"8", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}]}]}], 
+             ")"}]}], "+", 
+           RowBox[{"4", " ", 
+            RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"\[CapitalDelta]c", " ", 
+               RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"-", "\[CapitalGamma]m"}], "+", 
+                 RowBox[{"\[CapitalDelta]c", ".", 
+                  RowBox[{"(", 
+                   RowBox[{"-", 
+                    FractionBox[
+                    RowBox[{
+                    SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], 
+                    RowBox[{
+                    RowBox[{
+                    SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+                    RowBox[{"8", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}]}], 
+                ")"}]}], "+", 
+              RowBox[{"2", " ", 
+               RowBox[{"\[CapitalDelta]c", ".", 
+                RowBox[{"(", 
+                 RowBox[{"-", 
+                  FractionBox[
+                   RowBox[{
+                   "8", " ", "\[CapitalDelta]c", " ", "\[CapitalDelta]q", " ", 
+                    RowBox[{"g", ".", "v"}]}], 
+                   RowBox[{
+                    RowBox[{
+                    SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+                    RowBox[{"8", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"g", ".", "v"}], ")"}], "2"]}]}]]}], ")"}]}], " ", 
+               RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}]}]}], ")"}]}]}], 
+          ")"}]}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["\[CapitalDelta]c", "4"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            SuperscriptBox["\[CapitalGamma]m", "2"], "+", 
+            RowBox[{"4", " ", 
+             SuperscriptBox["\[CapitalDelta]q", "2"]}]}], ")"}]}], "+", 
+         RowBox[{"8", " ", 
+          SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"g", ".", "v"}], ")"}], "2"]}]}], ")"}]}]}], ")"}]}], 
+   ")"}], "/", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["\[CapitalDelta]c", "2"], " ", 
+     RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"(", 
+          RowBox[{"\[CapitalGamma]m", "-", 
+           RowBox[{"2", " ", "\[CapitalDelta]c"}]}], ")"}]}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "\[CapitalDelta]c"}], "+", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], ")"}]}], "+", 
+       RowBox[{"4", " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"\[ImaginaryI]", ".", "\[CapitalDelta]q"}], ")"}], "2"]}]}],
+       ")"}]}], "+", 
+    RowBox[{"8", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", "\[CapitalDelta]c"}], "+", 
+       RowBox[{"\[ImaginaryI]", ".", "\[CapitalGamma]m"}]}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[ImaginaryI]", ".", "g", ".", "v"}], ")"}], "2"]}]}], 
+   ")"}]}]], "Output",
+ CellChangeTimes->{3.728021581468271*^9}]
 }, Open  ]]
 },
 WindowSize->{759, 601},
@@ -536,7 +3121,7 @@ Cell[1587, 51, 749, 22, 43, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2373, 78, 167, 3, 68, "Input"],
-Cell[2543, 83, 1117, 32, 99, "Output"]
+Cell[2543, 83, 1117, 32, 85, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[3697, 120, 514, 15, 47, "Input"],
@@ -552,7 +3137,15 @@ Cell[9142, 286, 3851, 107, 184, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[13030, 398, 132, 2, 47, "Input"],
-Cell[13165, 402, 4208, 111, 253, "Output"]
+Cell[13165, 402, 4208, 111, 182, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17410, 518, 1408, 47, 103, "Input"],
+Cell[18821, 567, 86251, 2088, 3674, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[105109, 2660, 186, 3, 47, "Input"],
+Cell[105298, 2665, 17342, 433, 590, "Output"]
 }, Open  ]]
 }
 ]
